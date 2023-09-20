@@ -5,7 +5,7 @@
 class Counter { // 클래스 COUNTER 의 선언 시작 
 	int value; 
 	// privae 데이터멤버 
-public:  //public 멤버함수 
+public://public 멤버함수 
 	void reset()
 	{  value = 0;	} // 계수기의 값을 0으로 지움 
 	void count()	// 계수기의 값을 1 증가시킴  

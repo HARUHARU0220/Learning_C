@@ -128,10 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="VFMain1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="counter.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="VecF.h" />
+    <ClInclude Include="헤더.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
