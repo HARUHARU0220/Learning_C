@@ -30,6 +30,9 @@
     <ClCompile Include="Complex1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Pencils.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="counter.h">
@@ -48,6 +51,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Complex1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Pencils.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
