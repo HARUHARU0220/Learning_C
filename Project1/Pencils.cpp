@@ -13,7 +13,7 @@ Pencils Pencils:: operator++(int) { // 일반 객체 후위표기
 	Pencils tmp(*this);  // 복자 생성자 
 	if (++np >= 12)
 		++dozens, np = 0; 
-	return tmp;  // 보존된 객체를 반혼 
+	return tmp;  // 보존된 객체 를 반혼 
 
 }
 

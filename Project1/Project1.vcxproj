@@ -132,7 +132,9 @@
     <ClCompile Include="CSMain.cpp" />
     <ClCompile Include="FileName.cpp" />
     <ClCompile Include="Pencils.cpp" />
+    <ClCompile Include="SafeArr.cpp" />
     <ClCompile Include="VFMain1.cpp" />
+    <ClCompile Include="VFMain3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CharStack.h" />
@@ -140,6 +142,7 @@
     <ClInclude Include="counter.h" />
     <ClInclude Include="Pencils.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="SafeIntArray.h" />
     <ClInclude Include="VecF.h" />
     <ClInclude Include="헤더.h" />
   </ItemGroup>
