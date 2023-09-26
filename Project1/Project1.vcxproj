@@ -131,6 +131,7 @@
     <ClCompile Include="Complex1.cpp" />
     <ClCompile Include="CSMain.cpp" />
     <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="MyString.cpp" />
     <ClCompile Include="Pencils.cpp" />
     <ClCompile Include="SafeArr.cpp" />
     <ClCompile Include="VFMain1.cpp" />
@@ -140,6 +141,7 @@
     <ClInclude Include="CharStack.h" />
     <ClInclude Include="Complex1.h" />
     <ClInclude Include="counter.h" />
+    <ClInclude Include="MyString.h" />
     <ClInclude Include="Pencils.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="SafeIntArray.h" />

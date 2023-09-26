@@ -20,13 +20,12 @@ public:
 
 // int& operator[](int i) { 참조를 리턴함 
 
-int operator[ ](int i) const{ 
+int operator[ ](int i) const {
 	if (i < 0 || i >= limit) {
 		std::cout << "첨자가 범위를 벗어나 프로그램을 종료합니다."
-		exit(EXIT_FAILURE)	
+			exit(EXIT_FAILURE)
 	}
 	return arr[i]; // i번 원소 반환  
-}
 }; 
 
 
