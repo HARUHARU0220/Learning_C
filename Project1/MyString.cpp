@@ -32,5 +32,21 @@ Mystring::MyString(const MyString& mstr) // 복사 생성자/ 메모리 확보해서 strcpy 
 	strcpy(buf, mstr.buf); 
 }
 
+Mystring& MyString::operator+=(const MyString& mstr)
+{
+	if (bufSize < len + mstr.len) {
+		char* tbuf = new char[(bufSize = len + mstr.len)]
+		strcpy(tbuf, buf); 
+		delete[] buf;
+		buf = tbuf; 
+	}
+	strcpy(buf + len, mstr.buf); 
+	len += mstr.len; 
+	return *this; 
+} 
+
+// 기존 자기 자신에 들어 있는 문자열을 새로 할당한 메모리에다가 복사를 한 다음에 
+// 기존의 메모리는 필요없어 반납함 
+
 
 

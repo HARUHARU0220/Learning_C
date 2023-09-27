@@ -131,6 +131,7 @@
     <ClCompile Include="Complex1.cpp" />
     <ClCompile Include="CSMain.cpp" />
     <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="MSMain.cpp" />
     <ClCompile Include="MyString.cpp" />
     <ClCompile Include="Pencils.cpp" />
     <ClCompile Include="SafeArr.cpp" />
