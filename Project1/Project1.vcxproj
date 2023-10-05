@@ -133,6 +133,7 @@
     <ClCompile Include="FileName.cpp" />
     <ClCompile Include="MSMain.cpp" />
     <ClCompile Include="MyString.cpp" />
+    <ClCompile Include="PArrMain.cpp" />
     <ClCompile Include="Pencils.cpp" />
     <ClCompile Include="SafeArr.cpp" />
     <ClCompile Include="Student1.cpp" />
@@ -147,8 +148,10 @@
     <ClInclude Include="Pencils.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Person1.h" />
+    <ClInclude Include="Person_pointer.h" />
     <ClInclude Include="SafeIntArray.h" />
     <ClInclude Include="student1.h" />
+    <ClInclude Include="Student_pointer.h" />
     <ClInclude Include="VecF.h" />
     <ClInclude Include="헤더.h" />
   </ItemGroup>
