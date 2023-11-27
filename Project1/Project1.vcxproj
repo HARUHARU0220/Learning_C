@@ -136,6 +136,7 @@
     <ClCompile Include="PArrMain.cpp" />
     <ClCompile Include="Pencils.cpp" />
     <ClCompile Include="SafeArr.cpp" />
+    <ClCompile Include="StackMain.cpp" />
     <ClCompile Include="Student1.cpp" />
     <ClCompile Include="VFMain1.cpp" />
     <ClCompile Include="VFMain3.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="Person1.h" />
     <ClInclude Include="Person_pointer.h" />
     <ClInclude Include="SafeIntArray.h" />
+    <ClInclude Include="StackT.h" />
     <ClInclude Include="student1.h" />
     <ClInclude Include="Student_pointer.h" />
     <ClInclude Include="VecF.h" />
